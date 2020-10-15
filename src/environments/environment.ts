@@ -3,7 +3,17 @@
 // The list of file replacements can be found in `angular.json`.
 
 export const environment = {
-  production: false
+  production: false,
+  firebase: {
+    apiKey: "AIzaSyA6NEe_gU_VW2_kYlRYVbkB0t2svEx7HWI",
+    authDomain: "grapido-chat.firebaseapp.com",
+    databaseURL: "https://grapido-chat.firebaseio.com",
+    projectId: "grapido-chat",
+    storageBucket: "grapido-chat.appspot.com",
+    messagingSenderId: "46917096169",
+    appId: "1:46917096169:web:1099b153de11d0e3955678",
+    measurementId: "G-RFZ6BRY698"
+  }
 };
 
 /*
